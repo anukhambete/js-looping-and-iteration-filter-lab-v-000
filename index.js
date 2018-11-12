@@ -14,5 +14,8 @@ function fuzzyMatch (array, text) {
 }
 
 function matchName (array, text) {
-
+  let arr = array;
+  let txt = text;
+  new_array = arr.filter(a => a.name === txt);
+  return new_array;
 }
