@@ -13,6 +13,6 @@ function fuzzyMatch (array, text) {
   return new_array
 }
 
-function matchName (array, text) {
-  
+function matchName (object, text) {
+
 }
